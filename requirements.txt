@@ -1,0 +1,18 @@
+# Python packages
+# Package >=/== Version
+# >= if the packages are backward compatible
+# == if the exact version should be used
+# e.g. of how to get package info
+# $pip show tensorflow
+# 
+# > Name: tensorflow
+# > Version: 2.3.1
+
+# tensorflow >= 2.3.1
+tensorflow >= 2.3.1
+
+
+# Not python packages are included at the 
+# end of the file, as commented lines
+# e.g. for Matlab
+# Matlab >= 2016b
