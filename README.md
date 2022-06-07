@@ -28,7 +28,11 @@ Code takes in training and validation data as well as a trained BNN to perform t
 ### Network Post Processing (Extract_Activations.py, Extract_Activations_Linear.py, and Extract_Weights.py)
 These codes all take a trained BNN or TLNN and extract out the weights or activation to a .mat format for later analysis. The code Extract_Activations_Linear.py computes the activations, but removes any nonlinearity after the final layer before outputting activations. 
 
-### Coupled LES 
+### Coupled LES (LES_CNN.py)
+This code is used for the online testing. This code takes in a trained NN and an initial condition to generate data from large eddy simulation.
+
+### Visualizing Kernel Spectra (Plot_Kernel_Spectra.m)
+This take the extracted network weights, computes the kernels with the largest changes due to re-training and plots the spectrum of the kernel from both the BNN and TLNN.
 
 ## Citation
 
