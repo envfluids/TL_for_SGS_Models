@@ -25,7 +25,8 @@ Code takes in training and validation data sets to train a new BNN from a random
 ### Transfer Learning (DDP_CNN_TL_Single_Layers.py and DDP_CNN_TL_Two_Layers.py)
 Code takes in training and validation data as well as a trained BNN to perform transfer learning. The code for two layers is easily modified to select any combination of any number of layers.
 
-### Network Post Processing
+### Network Post Processing (Extract_Activations.py, Extract_Activations_Linear.py, and Extract_Weights.py)
+These codes all take a trained BNN or TLNN and extract out the weights or activation to a .mat format for later analysis. The code Extract_Activations_Linear.py computes the activations, but removes any nonlinearity after the final layer before outputting activations. 
 
 ### Coupled LES 
 
