@@ -1,11 +1,5 @@
 # TL_for_SGS_Models 
 
-## Table of contents
-* [Introduction](#Introduction)
-* [Requirements](#Requirements)
-* [Experiments](#Experiments)
-    * [Case 1](#Case-1)
-* [Citation](#Citation)
 
 ## Introduction
 
@@ -24,13 +18,16 @@ This is the introduction. We plan to
 - [TensorFlow 2](https://www.tensorflow.org/install)
 - [Keras 2.4.3](https://pypi.org/project/Keras/)
 
-## Experiments
-### Transfer Learning
+## Codes
+### Train BNN (Train_BNN.py)
+Code takes in training and validation data sets to train a new BNN from a random initialization. This outputs the trained model as well as the predictions of the trained model on a test set of data.
+
+### Transfer Learning (DDP_CNN_TL_Single_Layers.py and DDP_CNN_TL_Two_Layers.py)
+Code takes in training and validation data as well as a trained BNN to perform transfer learning. The code for two layers is easily modified to select any combination of any number of layers.
 
 ### Network Post Processing
 
 ### Coupled LES 
-
 
 ## Citation
 
