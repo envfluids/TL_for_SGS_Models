@@ -3,13 +3,7 @@
 
 ## Introduction
 
-This is the introduction. We plan to
-<ul>
-<li>Do the first item,</li>
-<li>Test the second item,</li>
-<li>Investigate the third item,</li>
-<li>Code the fourth item.</li>
-</ul>
+This repository includes the codes to produce datasets and implement the training, LES, and analyses in the accompanying paper *Explaining the physics of transfer learning a data-driven subgrid-scale closure to a different turbulent flow* [https://aip.scitation.org/doi/full/10.1063/5.0040286](https://arxiv.org/abs/2206.03198). The following links to a dataset that can be used for the training of networks, https://zenodo.org/record/4316338.
 
 ## Requirements
 - python 3.8
@@ -35,6 +29,11 @@ This code is used for the online testing. This code takes in a trained NN and an
 This take the extracted network weights, computes the kernels with the largest changes due to re-training and plots the spectrum of the kernel from both the BNN and TLNN.
 
 ## Citation
-
+@article{subel2022explaining,
+  title={Explaining the physics of transfer learning a data-driven subgrid-scale closure to a different turbulent flow},
+  author={Subel, Adam and Guan, Yifei and Chattopadhyay, Ashesh and Hassanzadeh, Pedram},
+  journal={arXiv preprint arXiv:2206.03198},
+  year={2022}
+}
 
 
