@@ -11,6 +11,7 @@ This repository includes the codes to produce datasets and implement the trainin
 	- [numpy](https://pypi.org/project/numpy/)
 - [TensorFlow 2](https://www.tensorflow.org/install)
 - [Keras 2.4.3](https://pypi.org/project/Keras/)
+- Matlab
 
 ## Codes
 ### Train BNN (Train_BNN.py)
