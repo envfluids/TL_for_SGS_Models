@@ -3,7 +3,7 @@
 
 ## Introduction
 
-This repository includes the codes to produce datasets and implement the training, LES, and analyses in the accompanying paper *Explaining the physics of transfer learning a data-driven subgrid-scale closure to a different turbulent flow* [https://arxiv.org/abs/2206.03198](https://arxiv.org/abs/2206.03198). The following links to the datasets that can be used for the training of networks, [https://zenodo.org/record/6621142](https://zenodo.org/record/6621142).
+This repository includes the codes to produce datasets and implement the training, LES, and analyses in the accompanying paper *Explaining the physics of transfer learning in data-driven turbulence modeling* [https://doi.org/10.1093/pnasnexus/pgad015](https://doi.org/10.1093/pnasnexus/pgad015). The following links to the datasets that can be used for the training of networks, [https://zenodo.org/record/6621142](https://zenodo.org/record/6621142).
 
 ## Requirements
 - python 3.8
